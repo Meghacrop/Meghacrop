@@ -1,0 +1,54 @@
+==========================================================
+ MeghaCrop — Deploy to the internet (no coding needed)
+==========================================================
+
+You need two free accounts:
+  • GitHub  -> github.com   (stores the code)
+  • Vercel  -> vercel.com   (puts it online; sign in WITH GitHub)
+
+----------------------------------------------------------
+STEP 1 — Put the code on GitHub
+----------------------------------------------------------
+1. Go to github.com and log in.
+2. Click the "+" (top right) -> "New repository".
+3. Name it:  meghacrop      Keep it Public (or Private — both fine).
+   Do NOT tick "Add a README". Click "Create repository".
+4. On the next page click the link:
+   "uploading an existing file".
+5. Drag the CONTENTS of this folder (all files and the src/ and
+   public/ folders) into the upload box.
+   IMPORTANT: upload the files INSIDE the meghacrop folder,
+   not the zip and not the outer folder.
+6. Click "Commit changes".
+
+----------------------------------------------------------
+STEP 2 — Deploy on Vercel
+----------------------------------------------------------
+1. Go to vercel.com -> "Sign Up" / "Log in" -> "Continue with GitHub".
+2. Click "Add New..." -> "Project".
+3. Find "meghacrop" in the list -> click "Import".
+4. Vercel auto-detects Vite. Don't change anything.
+   Click "Deploy".
+5. Wait ~1 minute. You'll get a live link like:
+       https://meghacrop.vercel.app
+   That is your working app. Open it on your phone.
+
+----------------------------------------------------------
+STEP 3 — (Optional) Use your own domain meghacrop.com
+----------------------------------------------------------
+1. Buy meghacrop.com from any registrar (GoDaddy, Namecheap, etc).
+2. In Vercel: open your project -> "Settings" -> "Domains".
+3. Type meghacrop.com -> "Add".
+4. Vercel shows 1–2 settings to copy into your registrar's
+   DNS page. Paste them. Done in a few minutes to a few hours.
+
+----------------------------------------------------------
+UPDATING LATER
+----------------------------------------------------------
+• Tell me what to change (or send the filled Excel workbook).
+• I give you a new MeghaCrop.jsx (or whole folder).
+• On GitHub: open src/MeghaCrop.jsx -> pencil (Edit) icon ->
+  delete all -> paste the new version -> "Commit changes".
+• Vercel redeploys automatically in ~1 minute. Nothing else to do.
+
+Questions at any step — just ask.
